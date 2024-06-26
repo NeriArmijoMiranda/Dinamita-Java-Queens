@@ -1,1 +1,28 @@
+body{
+    background-color: black;
+}
+.h1{
+    display:flex;
+    color:white;
+    height: 3rem;
+    gap:15px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+    flex-direction:row;
+    background-color:peru;
+    font-style:initial;
+}
 
+.Dinamita-titulo{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.barra-título{
+    text-align:center;
+    background-color:#08807B ;
+    
+}
