@@ -83,9 +83,9 @@ integrantes.push(  {
 
 const crearTarjeta = (etiqueta) => {        
     return `
-        <div class="card text-center offset-1 col-sm-7 col-md-5 col-lg-3" >
+        <div class="card text-center offset-1 col-6 col-sm-5 col-md-2 my-2" >
             <h5 class="card-title">${etiqueta.nombre}</h5>
-            <img src="${etiqueta.image}" height="320" border= 12% class="card-img-top" alt="...">
+            <img src="${etiqueta.image}" height="190" border= 12% class="card-img-top" alt="...">
             <div class="card-body"> 
                 <h5 class="card-title">${etiqueta.rol}</h5>
                 <p class="card-text">${etiqueta.frase}

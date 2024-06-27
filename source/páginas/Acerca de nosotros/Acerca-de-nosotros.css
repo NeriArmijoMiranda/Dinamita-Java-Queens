@@ -21,9 +21,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-.barra-título{
+.Yoatzin-título{
     text-align:center;
     background-color:#08807B ;
+    width: 100%;
     
 }
 
@@ -44,11 +45,13 @@ margin-bottom: 50px;
     body{
     background-color: black;
     }
-    .container {
+    #arregloTarjetas {
     margin-top: 10px;
     background-color: #08807B;
-    padding: 25px; 
-   
+width: 100%;
+margin-left: 10px;
+margin-right: 10px;
+justify-content: center;
     }
 
     .h1aN {
