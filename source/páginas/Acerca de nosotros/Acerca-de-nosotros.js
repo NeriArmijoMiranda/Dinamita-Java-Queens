@@ -6,7 +6,7 @@ const integrante = {
     linkedin: "https://www.linkedin.com/in/alejandra-alvarado-003681191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     github: "https://github.com/AlejandraAC",
     correo: "ale.alvarado.contreras@gmail.com",
-    image: "../img/Ale.jpg",
+    image:  "../public/img/Ale.jpg",
 };
 
 const integrantes = [   integrante   ];
@@ -18,7 +18,7 @@ integrantes.push(  {
     linkedin: "https://www.linkedin.com/in/jhorleny-arellano/",
     github: "https://github.com/Jhorchss",
     correo: "jhorleny.business@gmail.com",
-    image: "../img/Jhor.jpg", 
+    image: "./public\img\Jhor.jpg", 
 }  );
 
 integrantes.push(  { 
@@ -28,7 +28,7 @@ integrantes.push(  {
     linkedin: "https://www.linkedin.com/in/neri-armijo-miranda-821318195/",
     github: "https://github.com/NeriArmijoMiranda",
     correo: "neriarmijomiranda530@gmail.com", 
-    image: "../img/Neri.jpg",
+    image: "public\img\Neri.jpg",
 }  );
 
 integrantes.push(  { 
@@ -38,7 +38,7 @@ integrantes.push(  {
     linkedin: "https://www.linkedin.com/in/marbella-magaly-cabrera-dur%C3%A1n-649584278/",
     github: "https://github.com/marbellacabrera",
     correo: "marbecduran@gmail.com",
-    image: "../img/Mar.jpg",
+    image: "public\img\Mar.jpg",
 }  );
 
 integrantes.push(  { 
