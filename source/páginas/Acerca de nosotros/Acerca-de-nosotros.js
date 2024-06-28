@@ -82,31 +82,42 @@ integrantes.push(  {
 }  );
 
 const crearTarjeta = (etiqueta) => {        
-    return `
-        <div class="card text-center offset-1 col-6 col-sm-5 col-md-2 my-2" >
-            <h5 class="card-title">${etiqueta.nombre}</h5>
-            <img src="${etiqueta.image}" height="190" border= 12% class="card-img-top" alt="...">
-            <div class="card-body"> 
-                <h5 class="card-title">${etiqueta.rol}</h5>
-                <p class="card-text">${etiqueta.frase}
-                </p>
-            </div>
-            <div class="card-body">
-                <a href="${etiqueta.linkedin}"  class="btn btn-outline-info">
-                <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="${etiqueta.github}"  class="btn btn-dark">
-                <i class="bi bi-github"></i>
-                </a>
-                <a href="${etiqueta.correo}"  class="btn btn-danger">
-                <i class="bi bi-envelope-at"></i>
-                </a>
-            </div>
-        </div>`
+   return `
+        <!-- card -->
+            <div class="card mb-5 rounded-3 text-center offset-1 col-sm-7 col-md-5 col-lg-3">
+                <!-- avatar -->
+                <div class="avatar avatar-xl mt-n7 ms-4">
+                    <img src="${etiqueta.image}" alt="Image" class="rounded-circle border-4
+                    border-white-color-40 width="350" height="100" ">
+                </div>
+                <!-- card body -->
+                <div class="card-body">
+                    <!-- Title -->
+                    <h4 class="mb-1">${etiqueta.nombre}</h4>
+                    <p>${etiqueta.rol}</p>
+                    <p>${etiqueta.frase}</p>
+                    <div>
+                    <!-- Dropdown -->
+                        <div class="d-flex justify-content-between
+                                    align-items-center">
+                            <a href="${etiqueta.linkedin}"  class="btn btn-outline-info">
+                            <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="${etiqueta.github}"  class="btn btn-dark">
+                            <i class="bi bi-github"></i>
+                            </a>
+                            <a href="${etiqueta.correo}"  class="btn btn-danger">
+                            <i class="bi bi-envelope-at"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>`
 }
 
 
-const crearArregloTarjetas = ( integrantes ) => {
+
+   const crearArregloTarjetas = ( integrantes ) => {
     let arregloFinalTarjetas = "";
     for (let i = 0; i< integrantes.length; i++){
         arregloFinalTarjetas = arregloFinalTarjetas + crearTarjeta(integrantes[i]);

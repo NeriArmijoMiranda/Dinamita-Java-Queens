@@ -2,6 +2,156 @@ body{
     background-color: black;
 }
 .h1{
+
+    display:flex;
+    color:white;
+    height: 3rem;
+    gap:20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+    flex-direction:row;
+    background-color:peru;
+    font-style: Mulish;
+}
+
+.Dinamita-titulo{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Yoatzin-título{
+    text-align:center;
+    width: 100%;
+    
+}
+
+.navbar{
+    background-color: #E4007F;
+    width: 100%;
+    height: 5rem;
+    font-family: Corben;
+    
+    } 
+.Yoatzin-título{
+    body{
+    background-color: black;
+}
+.h1{
+    display:flex;
+    color:white;
+    height: 3rem;
+    gap:20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+    flex-direction:row;
+    background-color:peru;
+    font-style: Mulish;
+}
+
+.Dinamita-titulo{
+    background-color: #08807B;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Yoatzin-título{
+    text-align:center;
+    width: 100%;
+    
+}
+
+.navbar{
+    background-color: #E4007F;
+    width: 100%;
+    height: 5rem;
+    font-family: Corben;
+    
+    } 
+.Yoatzin-título{
+    background-color: #08807B;
+color: aliceblue;
+font-family: Corben;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+    body{
+    background-color: black;
+    }
+    #arregloTarjetas{
+        background: black;
+    }
+    
+    .card{
+        background: #08807B;
+    }
+    
+    .card:hover{
+        background:#E4007F;
+    }
+
+    .h1aN {
+    background-color: #08807B;
+    color: white;
+    font-size: 40px;
+    font-family: Corben;
+    text-align: center;
+    }
+    .ph1 {
+        text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Mulish;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .Dinamita-J-Q{
+        color: white;
+        text-align: center;
+        font-family: Mulish;
+        padding: 27px;
+        font-size:20px;
+        margin: 30px;
+    }
+    .footer-basic{
+    background-color: #F1A20B;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    font-family: Mulish;
+    /* color: #000000; */
+    }
+color: aliceblue;
+font-family: Corben;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+    body{
+    background-color: black;
+    }
+    #arregloTarjetas {
+    margin-top: 10px;
+    background-color: #08807B;
+width: 100%;
+margin-left: 10px;
+margin-right: 10px;
+justify-content: center;
+word-wrap: break-word;
+    }
+
+    .h1aN {
+        body{
+    background-color: black;
+}
+.h1{
     display:flex;
     color:white;
     height: 3rem;
@@ -55,6 +205,7 @@ justify-content: center;
     }
 
     .h1aN {
+        background-color: #08807B;
     color: white;
     font-size: 40px;
     font-family: Corben;
@@ -69,6 +220,7 @@ justify-content: center;
     margin-right: 30px;
     }
     .Dinamita-J-Q{
+    
         color: white;
         text-align: center;
         font-family: Mulish;
@@ -83,5 +235,85 @@ justify-content: center;
     width: 100%;
     height: 4rem;
     font-family: Mulish;
-    /* color: #000000; */
+    /* color: #000000; */
+    }
+    color: white;
+    font-size: 40px;
+    font-family: Corben;
+    text-align: center;
     }
+    .ph1 {
+        text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Mulish;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .Dinamita-J-Q{
+    
+        color: white;
+        text-align: center;
+        font-family: Mulish;
+        padding: 27px;
+        font-size:20px;
+        margin: 30px;
+    }
+    .footer-basic{
+    background-color: #F1A20B;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    font-family: Mulish;
+    /* color: #000000; */
+    }
+-------------------------------------------------------------------
+/* Clase para barra de navegación */
+.navbar {
+    background-color: #E4007F;
+    width: 100%;
+    height: 100%;
+    font-family: "Corben", serif;
+    font-weight: 700;
+    font-size: large;
+    font-style: normal;
+}
+
+/* Clase para pie de página */
+.footer-basic {
+    background-color: #F1A20B;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 2rem;
+    padding: 1%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Clase de fuente titulos */
+.corben-regular {
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.corben-bold {
+    font-family: "Corben", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+ /* Clase para el logo */ 
+ .logo-image {
+    max-height: 1 rem;
+    height: auto; 
+    max-width: 5rem;
+  }
+
+/* Estilo para distribuir el menú en toda la página. */
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
